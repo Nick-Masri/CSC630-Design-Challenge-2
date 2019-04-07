@@ -1,0 +1,13 @@
+------- FACTS -------
+* The font is "Helvetica Neue"
+* The colors are:
+    --bright-orange: #fb8d1a
+    --cloudy-magenta: #a3486d
+    --warm-gray: #bab0ba
+    --lighter-gray: #ede6ec
+
+------- TEXT -------
+
+Cool widget feature!
+
+The cool widget feature allows for cutting-edge calendaring, with one-touch support for adding, changing, removing, or sharing any calendar event.

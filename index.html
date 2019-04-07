@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Design Challenge 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script type=application/javascript> function bobble(reference){document.getElementById(reference).style.marginTop="53px" ; setTimeout(function(){document.getElementById(reference).style.marginTop="50px" ;} , 100); } </script> </head> <body>
+        <header>
+            <h1>Super Great Calendar App</h1>
+        <img src="images/calendar.png" alt="">
+    </header>
+    <div id="features">
+        <h2>Features</h2>
+        <div id="versions" class="flexbox">
+            <div class="cards orange">
+                <p>Free Version</p>
+                <ul>
+                    <li>Feature</li>
+                    <li>Feature</li>
+                </ul>
+            </div>
+            <div class="cards magenta">
+                <p>Paid Version</p>
+                <ul>
+                    <li>Feature</li>
+                    <li>Feature</li>
+                    <li>Feature</li>
+                    <li>Feature</li>
+                </ul>
+            </div>
+            <div class="cards magenta">
+                <p>Pro Version</p>
+                <ul>
+                    <li>Feature</li>
+                    <li>Feature</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="widget">
+        <div id="widget-feature" class="orange">
+            <h2>Cool widget feature!</h2>
+            <p>The cool widget feature allows for cutting-edge calendaring, with one-touch support for adding, changing, removing, or sharing any calendar event.</p>
+        </div>
+    </div>
+    <div id="buy">
+        <h2>Buy Now</h2>
+        <div class="flexbox">
+            <div class="cards orange" onclick="bobble('leftcard')" id="leftcard">
+                <p>Free Demo</p>
+            </div>
+            <div class="cards magenta" onclick="bobble('rightcard')" id="rightcard">
+                <p>Buy Now</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="magenta">
+        <p id="copyright"> &copy; Cool Kids Production, 2019</p>
+    </footer>
+
+</body></html>

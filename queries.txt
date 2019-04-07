@@ -1,0 +1,7 @@
+Background color fade
+box shadow css
+copyright html
+square bullet point html
+opague css
+grid html   
+change style javascript

@@ -1,0 +1,144 @@
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div,
+header,
+footer {
+    text-align: center;
+}
+
+
+
+header {
+    background-image: linear-gradient(to bottom left, #fb8d1a, #a3486d);
+    padding: 30px;
+    height: 45%;
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+}
+
+footer {
+    width: 100%;
+    color: black;
+    height: 150px;
+}
+
+.cards {
+    margin: 0;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#features .cards {
+    width: 25%;
+    height: 350px;
+}
+
+#features .cards:hover {
+    box-shadow: 0px 1px 10px 12px #bab0ba;
+}
+
+#features .cards ul {
+    text-align: left;
+    list-style-type: square;
+}
+
+#features .cards ul li {
+    padding: 5px
+}
+
+#features {
+    background-color: #ede6ec;
+    padding: 55px;
+}
+
+#buy {
+    padding: 50px 0px 50px;
+    height: 370px;
+}
+
+#buy .flexbox {
+    justify-content: center;
+}
+
+#buy .cards,
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#buy .cards {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.flexbox {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#versions {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.magenta {
+    background-color: #a3486d;
+}
+
+.magenta p,
+.magenta ul {
+    color: white;
+}
+
+.orange {
+    background-color: #fb8d1a;
+}
+
+#widget {
+    background-image: url(images/cal_desk.jpeg);
+    width: 100%;
+    background-position: bottom right;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 8% auto 20%;
+    grid-template-rows: auto 200px auto;
+}
+
+#widget-feature {
+    border-radius: 15px;
+    opacity: 0.8;
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
+}
+
+#copyright {
+    color: black;
+}
